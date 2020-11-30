@@ -1,29 +1,95 @@
 <?php
+ini_set("log_errors",True);
+$log_file="error.log";
+ini_set("error_log",$log_file);
 
 require_once('CensusAnalyser.php');
+require_once('CensusAnalyserException.php');
 
 class CensusAnalyserTest extends PHPUnit\Framework\TestCase
 {
    static $csvPath = "StateCensusData.csv";
    static $statePath = "StateCode.csv";
+   protected $analyser;
+   protected $exceptioner;
+
+   protected function setUp(): void{
+      $this->analyser= new CensusAnalyser();
+      $this->exceptioner= new CensusAnalyserException();
+   }
 
    public function testTotalCsvRecords()
    {
       try {
-         $analyser = new CensusAnalyser();
-         $this->assertEquals(29, $analyser->loadStateCensusData(self::$csvPath));
+         $this->assertEquals(29, $this->analyser->loadStateCensusData(self::$csvPath));
       } catch (Exception $e) {
-         echo "Csv Records not found";
+         echo $e->getMessage();
       }
+   }
+
+   public function testStateCensusCsvFile(){
+      try{
+         $path="StateCensus.csv";
+         if(!file_exists($path)){
+            $this->analyser->loadStateCensusData($path);
+            $this->assertFalse(file_exists($path));
+            throw new Exception($this->exceptioner->passMessage($this->exceptioner->csv_file_not_found));        
+         } 
+      }catch(Exception $e){
+         error_log($e->getMessage());
+      }
+
+   }
+
+   public function testStateCensusTypeFile(){
+      try{
+         $path="StateCensus.txt";
+         if(!file_exists($path)){
+            $this->analyser->loadStateCensusData($path);
+            $this->assertFalse(file_exists($path));
+            throw new Exception($this->exceptioner->passMessage($this->exceptioner->csv_type_not_found));        
+         } 
+      }catch(Exception $e){
+         echo $e->getMessage();
+      }
+
    }
 
    public function testStateRecords()
    {
       try {
-         $analyser = new CensusAnalyser();
-         $this->assertEquals(37, $analyser->loadCensusData(self::$statePath));
+         $this->assertEquals(37, $this->analyser->loadCensusData(self::$statePath));
       } catch (Exception $e) {
-         echo "State Records not found";
+         echo $e->getMessage();
       }
    }
+
+   public function testStateCodeCsvFile(){
+      try{
+         $path="State.csv";
+         if(!file_exists($path)){
+            $this->analyser->loadCensusData($path);           
+            $this->assertFalse(file_exists($path));
+            throw new Exception($this->exceptioner->passMessage($this->exceptioner->csv_file_not_found));        
+         }
+      }catch(Exception $e){
+         echo $e->getMessage();
+      }
+
+   }
+
+   public function testStateCodeTypeFile(){
+      try{
+         $path="State.txt";
+         if(!file_exists($path)){
+            $this->analyser->loadCensusData($path);           
+            $this->assertFalse(file_exists($path));
+            throw new Exception($this->exceptioner->passMessage($this->exceptioner->csv_type_not_found));        
+         }
+      }catch(Exception $e){
+         echo $e->getMessage();
+      }
+
+   }
 }
+?>

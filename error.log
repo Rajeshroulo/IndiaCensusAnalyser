@@ -1,0 +1,5 @@
+[30-Nov-2020 07:04:40 Europe/Berlin] fopen(StateCensus.csv): failed to open stream: No such file or directory
+[30-Nov-2020 07:12:55 Europe/Berlin] fopen(StateCensus.csv): failed to open stream: No such file or directory
+[30-Nov-2020 07:18:25 Europe/Berlin] fopen(StateCensus.csv): failed to open stream: No such file or directory
+[30-Nov-2020 07:21:31 Europe/Berlin] fopen(StateCensus.csv): failed to open stream: No such file or directory
+[30-Nov-2020 07:28:58 Europe/Berlin] Undefined property: CensusAnalyserException::$csv_file_not_found
