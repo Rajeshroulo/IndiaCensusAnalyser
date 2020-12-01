@@ -22,7 +22,7 @@ class CensusAnalyserTest extends PHPUnit\Framework\TestCase
    {
       try {
          $this->assertEquals(29, $this->analyser->loadStateCensusData(self::$csvPath));
-      } catch (Exception $e) {
+      } catch (CensusAnalyserException $e) {
          echo $e->getMessage();
       }
    }
@@ -33,9 +33,8 @@ class CensusAnalyserTest extends PHPUnit\Framework\TestCase
          if(!file_exists($path)){
             $this->analyser->loadStateCensusData($path);
             $this->assertFalse(file_exists($path));
-            throw new Exception($this->exceptioner->passMessage($this->exceptioner->csv_file_not_found));        
          } 
-      }catch(Exception $e){
+      }catch(CensusAnalyserException $e){
          error_log($e->getMessage());
       }
 
@@ -47,9 +46,8 @@ class CensusAnalyserTest extends PHPUnit\Framework\TestCase
          if(!file_exists($path)){
             $this->analyser->loadStateCensusData($path);
             $this->assertFalse(file_exists($path));
-            throw new Exception($this->exceptioner->passMessage($this->exceptioner->csv_type_not_found));        
          } 
-      }catch(Exception $e){
+      }catch(CensusAnalyserException $e){
          echo $e->getMessage();
       }
 
@@ -59,7 +57,7 @@ class CensusAnalyserTest extends PHPUnit\Framework\TestCase
    {
       try {
          $this->assertEquals(37, $this->analyser->loadCensusData(self::$statePath));
-      } catch (Exception $e) {
+      } catch (CensusAnalyserException $e) {
          echo $e->getMessage();
       }
    }
@@ -70,9 +68,8 @@ class CensusAnalyserTest extends PHPUnit\Framework\TestCase
          if(!file_exists($path)){
             $this->analyser->loadCensusData($path);           
             $this->assertFalse(file_exists($path));
-            throw new Exception($this->exceptioner->passMessage($this->exceptioner->csv_file_not_found));        
          }
-      }catch(Exception $e){
+      }catch(CensusAnalyserException $e){
          echo $e->getMessage();
       }
 
@@ -84,12 +81,20 @@ class CensusAnalyserTest extends PHPUnit\Framework\TestCase
          if(!file_exists($path)){
             $this->analyser->loadCensusData($path);           
             $this->assertFalse(file_exists($path));
-            throw new Exception($this->exceptioner->passMessage($this->exceptioner->csv_type_not_found));        
          }
-      }catch(Exception $e){
+      }catch(CensusAnalyserException $e){
          echo $e->getMessage();
       }
 
+   }
+
+   public function testWhentStateCensusDataSortedAccordingToStates(){
+      try{
+         $this->analyser->sortedCensusData();
+         $this->assertEquals("Andhra Pradesh",$this->census['0']);  
+      }catch(CensusAnalyserException $e){
+         echo $e->getMessage();
+      }
    }
 }
 ?>
