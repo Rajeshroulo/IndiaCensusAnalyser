@@ -8,16 +8,16 @@ class CensusAnalyser
     echo "\n Welcome to Census Analyser Program \n";
   }  
  
-  function loadCensusData($Path)
+  function loadCensusData($filePath)
   {
     $row=0;
     try{
-      if(!file_exists($Path)){
+      if(!file_exists($filePath)){
         throw new CensusAnalyserException("enter valid file");
       }
 
       else{
-        if (($h = fopen($Path,"r")) !== FALSE) {
+        if (($h = fopen($filePath,"r")) !== FALSE) {
           // Convert each line into the local $data variable
           // The items of the array are comma separated
           while (($data = fgetcsv($h, 1000, ",")) !== FALSE) {
@@ -91,13 +91,25 @@ class CensusAnalyser
    return ($array_json);   
   }
 
+  public function sortCensusDataByArea(){    
+    $states=array();
+    //using loop to get states from census array
+    foreach($this->census as $value => $row){
+     $states[$value] = $row[2]; 
+    }
+    //function used to sort array 
+    array_multisort($states, SORT_DESC, $this->census); 
+    $array_json=json_encode($this->census);
+    //printing output in json format
+   return ($array_json);   
+  }
+
 }
 $analyser= new CensusAnalyser();
-$analyser->loadCensusData("StateCensusData.csv");
-$analyser->loadCensusData("StateCode.csv");
 $analyser->sortCensusDataByState();
 $analyser->sortCensusDataByStateCode();
 $analyser->sortCensusDataByPopulation();
 $analyser->sortCensusDataByPopulationDensity();
+$analyser->sortCensusDataByArea();
 
 ?>

@@ -1035,3 +1035,497 @@ Stack trace:
 [02-Dec-2020 08:07:40 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
 [02-Dec-2020 08:07:40 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
 [02-Dec-2020 08:07:40 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:101
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:30 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:31 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:32 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:33 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:34 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:35 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php on line 85
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP Stack trace:
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   1. {main}() C:\bin\phpunit.phar:0
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   2. PHPUnit\TextUI\Command::main() C:\bin\phpunit.phar:1091
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   3. PHPUnit\TextUI\Command->run() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:98
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar://C:/bin/phpunit.phar/phpunit/TextUI/Command.php:113
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   5. PHPUnit\TextUI\TestRunner->loadSuiteClass() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:94
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   6. PHPUnit\Runner\StandardTestSuiteLoader->load() phar://C:/bin/phpunit.phar/phpunit/Runner/BaseTestRunner.php:117
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   7. PHPUnit\Util\FileLoader::checkAndLoad() phar://C:/bin/phpunit.phar/phpunit/Runner/StandardTestSuiteLoader.php:43
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   8. PHPUnit\Util\FileLoader::load() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:43
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP   9. include_once() phar://C:/bin/phpunit.phar/phpunit/Util/FileLoader.php:52
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP  10. require_once() C:\xampp\htdocs\CensusAnalyser\CensusAnalyserTest.php:6
+[02-Dec-2020 08:23:36 Europe/Berlin] PHP  11. CensusAnalyser->sortCensusDataByPopulationDensity() C:\xampp\htdocs\CensusAnalyser\CensusAnalyser.php:114
