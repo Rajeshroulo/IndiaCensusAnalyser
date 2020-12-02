@@ -78,6 +78,19 @@ class CensusAnalyser
    return ($array_json);   
   }
 
+  public function sortCensusDataByPopulationDensity(){    
+    $states=array();
+    //using loop to get states from census array
+    foreach($this->census as $value => $row){
+     $states[$value] = $row[3]; 
+    }
+    //function used to sort array 
+    array_multisort($states, SORT_DESC, $this->census); 
+    $array_json=json_encode($this->census);
+    //printing output in json format
+   return ($array_json);   
+  }
+
 }
 $analyser= new CensusAnalyser();
 $analyser->loadCensusData("StateCensusData.csv");
@@ -85,5 +98,6 @@ $analyser->loadCensusData("StateCode.csv");
 $analyser->sortCensusDataByState();
 $analyser->sortCensusDataByStateCode();
 $analyser->sortCensusDataByPopulation();
+$analyser->sortCensusDataByPopulationDensity();
 
 ?>

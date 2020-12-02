@@ -136,7 +136,7 @@ class CensusAnalyserTest extends PHPUnit\Framework\TestCase
       }
    } 
 
-   public function testWhentStateCensusDataSortedAccordingToPopulationFirstName(){
+   public function testWhentStateCensusDataSortedAccordingToHighestPopulationName(){
       try{
          $this->analyser->loadCensusData(self::$csvPath);
          $this->analyser->sortCensusDataByPopulation();
@@ -148,13 +148,37 @@ class CensusAnalyserTest extends PHPUnit\Framework\TestCase
       }
    }
 
-   public function testWhentStateCensusDataSortedAccordingToPopulationLastName(){
+   public function testWhentStateCensusDataSortedAccordingToLeastPopulationName(){
       try{
          $this->analyser->loadCensusData(self::$csvPath);
          $this->analyser->sortCensusDataByPopulation();
          $array=$this->analyser->census[29];
          $lastState=$array[0];
          $this->assertEquals("Sikkim",$lastState);  
+      }catch(CensusAnalyserException $e){
+         echo $e->getMessage();
+      }
+   }
+
+   public function testWhentStateCensusDataSortedAccordingToHighestPopulationDensityName(){
+      try{
+         $this->analyser->loadCensusData(self::$csvPath);
+         $this->analyser->sortCensusDataByPopulationDensity();
+         $array=$this->analyser->census[1];
+         $firstState=$array[0];
+         $this->assertEquals("Bihar",$firstState);  
+      }catch(CensusAnalyserException $e){
+         echo $e->getMessage();
+      }
+   }
+
+   public function testWhentStateCensusDataSortedAccordingToLeastPopulationDensityName(){
+      try{
+         $this->analyser->loadCensusData(self::$csvPath);
+         $this->analyser->sortCensusDataByPopulationDensity();
+         $array=$this->analyser->census[29];
+         $lastState=$array[0];
+         $this->assertEquals("Arunachal Pradesh",$lastState);  
       }catch(CensusAnalyserException $e){
          echo $e->getMessage();
       }
