@@ -21,7 +21,7 @@ class CensusAnalyserTest extends PHPUnit\Framework\TestCase
    public function testTotalCsvRecords()
    {
       try {
-         $this->assertEquals(29, $this->analyser->loadStateCensusData(self::$csvPath));
+         $this->assertEquals(29, $this->analyser->loadCensusData(self::$csvPath));
       } catch (CensusAnalyserException $e) {
          echo $e->getMessage();
       }
@@ -31,7 +31,7 @@ class CensusAnalyserTest extends PHPUnit\Framework\TestCase
       try{
          $path="StateCensus.csv";
          if(!file_exists($path)){
-            $this->analyser->loadStateCensusData($path);
+            $this->analyser->loadCensusData($path);
             $this->assertFalse(file_exists($path));
          } 
       }catch(CensusAnalyserException $e){
@@ -44,7 +44,7 @@ class CensusAnalyserTest extends PHPUnit\Framework\TestCase
       try{
          $path="StateCensus.txt";
          if(!file_exists($path)){
-            $this->analyser->loadStateCensusData($path);
+            $this->analyser->loadCensusData($path);
             $this->assertFalse(file_exists($path));
          } 
       }catch(CensusAnalyserException $e){
@@ -88,13 +88,52 @@ class CensusAnalyserTest extends PHPUnit\Framework\TestCase
 
    }
 
-   public function testWhentStateCensusDataSortedAccordingToStates(){
+   public function testWhentStateCensusDataSortedAccordingToStatesFirstValue(){
       try{
-         $this->analyser->sortedCensusData();
-         $this->assertEquals("Andhra Pradesh",$this->census['0']);  
+         $this->analyser->loadCensusData(self::$csvPath);
+         $this->analyser->sortCensusDataByState();
+         $array=$this->analyser->census[0];
+         $firstState=$array[0];
+         $this->assertEquals("Andhra Pradesh",$firstState);  
       }catch(CensusAnalyserException $e){
          echo $e->getMessage();
       }
    }
+
+   public function testWhentStateCensusDataSortedAccordingToStatesLastValue(){
+      try{
+         $this->analyser->loadCensusData(self::$csvPath);
+         $this->analyser->sortCensusDataByState();
+         $array=$this->analyser->census[29];
+         $lastState=$array[0];
+         $this->assertEquals("West Bengal",$lastState);  
+      }catch(CensusAnalyserException $e){
+         echo $e->getMessage();
+      }
+   }
+
+   public function testWhenStateDataSortedAccordingToStatecodeFirstValue(){
+      try{
+         $this->analyser->loadCensusData(self::$statePath);
+         $this->analyser->sortCensusDataByStateCode();
+         $array=$this->analyser->census[0];
+         $firstStatecode=$array[2];
+         $this->assertEquals(" AD",$firstStatecode);  
+      }catch(CensusAnalyserException $e){
+         echo $e->getMessage();
+      }
+   }
+
+   public function testWhenStateDataSortedAccordingToStatecodeLastValue(){
+      try{
+         $this->analyser->loadCensusData(self::$statePath);
+         $this->analyser->sortCensusDataByStateCode();
+         $array=$this->analyser->census[37];
+         $lastStatecode=$array[2];
+         $this->assertEquals("WB",$lastStatecode);  
+      }catch(CensusAnalyserException $e){
+         echo $e->getMessage();
+      }
+   } 
 }
 ?>
