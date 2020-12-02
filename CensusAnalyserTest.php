@@ -266,6 +266,30 @@ class CensusAnalyserTest extends PHPUnit\Framework\TestCase
          echo $e->getMessage();
       }
    }
+
+   public function testWhenUSCensusDataSortedAccordingToHighestAreaStateName(){
+      try{
+         $this->analyser->loadCensusData(self::$usPath);
+         $this->analyser->sortUSCensusDataByArea();
+         $array=$this->analyser->census[1];
+         $firstState=$array[1];
+         $this->assertEquals("Alaska",$firstState);  
+      }catch(CensusAnalyserException $e){
+         echo $e->getMessage();
+      }
+   }
+
+   public function testWhenUSCensusDataSortedAccordingToSmallestAreaStateName(){
+      try{
+         $this->analyser->loadCensusData(self::$usPath);
+         $this->analyser->sortUSCensusDataByArea();
+         $array=$this->analyser->census[51];
+         $lastState=$array[1];
+         $this->assertEquals("District of Columbia",$lastState);  
+      }catch(CensusAnalyserException $e){
+         echo $e->getMessage();
+      }
+   }
    
 }
 ?>
