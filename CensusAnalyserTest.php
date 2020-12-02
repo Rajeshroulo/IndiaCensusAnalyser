@@ -10,6 +10,8 @@ class CensusAnalyserTest extends PHPUnit\Framework\TestCase
 {
    static $csvPath = "StateCensusData.csv";
    static $statePath = "StateCode.csv";
+   static $usPath = "USCensusData.csv";
+
    protected $analyser;
    protected $exceptioner;
 
@@ -179,6 +181,30 @@ class CensusAnalyserTest extends PHPUnit\Framework\TestCase
          $array=$this->analyser->census[29];
          $lastState=$array[0];
          $this->assertEquals("Arunachal Pradesh",$lastState);  
+      }catch(CensusAnalyserException $e){
+         echo $e->getMessage();
+      }
+   }
+
+   public function testWhentStateCensusDataSortedAccordingToHighestAreaStateName(){
+      try{
+         $this->analyser->loadCensusData(self::$csvPath);
+         $this->analyser->sortCensusDataByArea();
+         $array=$this->analyser->census[1];
+         $firstState=$array[0];
+         $this->assertEquals("Rajasthan",$firstState);  
+      }catch(CensusAnalyserException $e){
+         echo $e->getMessage();
+      }
+   }
+
+   public function testWhentStateCensusDataSortedAccordingToSmallestAreaStateName(){
+      try{
+         $this->analyser->loadCensusData(self::$csvPath);
+         $this->analyser->sortCensusDataByArea();
+         $array=$this->analyser->census[29];
+         $lastState=$array[0];
+         $this->assertEquals("Goa",$lastState);  
       }catch(CensusAnalyserException $e){
          echo $e->getMessage();
       }
