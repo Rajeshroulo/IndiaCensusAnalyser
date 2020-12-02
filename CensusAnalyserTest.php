@@ -135,5 +135,6 @@ class CensusAnalyserTest extends PHPUnit\Framework\TestCase
          echo $e->getMessage();
       }
    } 
+   
 }
 ?>
